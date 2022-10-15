@@ -5,7 +5,7 @@ nested_list = [
         [1, 2, None],
 ]
 
-# print(list(chain.from_iterable(nested_list)))
+
 if __name__ == '__main__':
         for item in FlatIterator(nested_list):
                 print(item)
