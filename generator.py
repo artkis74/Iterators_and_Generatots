@@ -1,4 +1,5 @@
 def flat_generaotor(list):
+
     list = [element for lists in list for element in lists]
     count = 0
     while count < len(list):

@@ -11,5 +11,6 @@ if __name__ == '__main__':
                 print(item)
         flat_list = [item for item in FlatIterator(nested_list)]
         print(flat_list)
+
         generator_list = [item for item in flat_generaotor(nested_list)]
         print(generator_list)
