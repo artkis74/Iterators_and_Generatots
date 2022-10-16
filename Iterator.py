@@ -1,6 +1,8 @@
 from itertools import chain
+from untils import logger
 
 
+@logger('logs.txt')
 class FlatIterator:
 
     def __init__(self, list):

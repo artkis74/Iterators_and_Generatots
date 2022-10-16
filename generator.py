@@ -1,5 +1,8 @@
-def flat_generaotor(list):
+from untils import logger
 
+
+@logger('logs.txt')
+def flat_generaotor(list):
     list = [element for lists in list for element in lists]
     count = 0
     while count < len(list):
